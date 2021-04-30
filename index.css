@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    background: #303642;
+    color: #eee;
+    font-family: sans-serif;
+    max-width: 720px;
+    margin: auto;
+    padding: 10px;
+}
+h3 {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h3 > code {
+    font-size: 18px;
+    font-weight: normal;
+}
+.head {
+    text-align: center;
+    margin: 15px;
+}
+.head > h1 {
+    font-size: 42px;
+}
+.head > h2 {
+    font-weight: normal;
+}
+a {
+    color: #5294e2;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.5;
+}
+p, li {
+    line-height: 1.5;
+}
+li > a {
+    font-weight: bold;
+}
+.dir > p {
+    opacity: 0.5;
+    font-style: italic;
+}
+.pub {
+    color: #cc575d;
+    font-style: normal;
+}
+center {
+    opacity: 0.5;
+    margin: 20px;
+}
+span[title] {
+    cursor: help;
+}
+input[type="text"] {
+    width: calc(100% - 40px);
+    height: 32px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(64, 69, 82);
+    color: darkgrey;
+}
+
+/* cidr only */
+#data {
+    display: none;
+}
