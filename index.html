@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>CIDR Calculator</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="head">
+        <h1>CIDR Calculator</h1>
+        <h2><b>C</b>lassless <b>I</b>nter<b>D</b>omain <b>R</b>outing</h2>
+    </div>
+    <div class="body">
+        <p>This is a live-updating CIDR calculator.</p>
+        <input id="inp" type="text" placeholder="10.0.0.0/8">
+
+        <p id="err"><b>Error!</b> <span id="errCode">Nothing provided.</span></p>
+        <div id="data">
+            <p><b>Subnet:</b> <span id="mask"></span></p>
+            <p><b>Wildcard mask:</b> <span id="maskIP"></span></p>
+            <p><b>Subnet mask:</b> <span id="subnetMaskIP"></span></p>
+            <p><b>Starting IP address:</b> <span id="startIP"></span></p>
+            <p><b>Ending IP address:</b> <span id="endIP"></span></p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
